@@ -48,11 +48,12 @@
                             alt="...">
                         <div class="card-body">
                             <p class="card-text">Nonton netflix tanpa perlu pake kartu kredit, dalam satu tagihan IndiHome.
-                                Yuk, rasain serunya nonton film, drama series, TV series, hingga Netflix Original, sekarang.
+                                Yuk, rasain serunya nonton film, drama series, TV series, hingga Netflix Original.
                             </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card my-2" style="min-width: 18rem; height: 300px;">
                         <img src="{{ asset('images/icon/icon-speed.svg') }}" style="width: 100px" class="card-img-top"
