@@ -1,19 +1,11 @@
 <IfModule mod_rewrite.c>
-    <IfModule mod_negotiation.c>
-        Options -MultiViews
-    </IfModule>
-
     RewriteEngine On
 
-    RewriteCond %{REQUEST_FILENAME} -d [OR]
-    RewriteCond %{REQUEST_FILENAME} -f
-    RewriteRule ^ ^$1 [N]
-
-    RewriteCond %{REQUEST_URI} (\.\w+$) [NC]
-    RewriteRule ^(.*)$ public/$1 
-
+    # Jika request bukan untuk file yang ada atau direktori yang ada
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ index.php
+
+    # Arahkan semua request ke folder public
+    RewriteRule ^(.*)$ public/$1 [L]
 
 </IfModule>
