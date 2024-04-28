@@ -142,6 +142,6 @@
         </div>
     </section>
     <footer class="text-center bg-danger align-content-center fw-bold text-light mt-5" style="height: 80px ;  ">
-       Egi Sales Indihome - &copy; 2024
+      &copy; 2024 - Pasang Wifi Indhome | Sales Indihome
     </footer>
 @endsection

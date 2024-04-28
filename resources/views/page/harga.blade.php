@@ -1,4 +1,10 @@
 <div class="container bg-white">
+    <div class="text-center">
+        <h1 class="pt-5 fw-bold ">
+            Pilihan Paket IndiHome
+        </h1>
+        <h5 class="fw-bold">Temukan Pilihan Paket IndiHome sesuai Kebutuhan Anda</p>
+    </div>
     <div class="row justify-content-center">
         <h1 class="fw-bold mt-5 mb-3 text-center">Paket 1P Internet Only</h1>
         @foreach ($jHarga as $item)
@@ -12,7 +18,7 @@
                             <div class="col-3">
                                 <div class=" bg-danger text-center p-2 fw-bold text-light hero"
                                     style="border-radius: 0 20px 0 20px">
-                                    <h4 class="fw-bolder p-0 m-0">30GB</h4>
+                                    <h4 class="fw-bolder p-0 m-0">{{ $item['kuota'] }}</h4>
                                     <p class="p-0 m-0">Mbps</p>
                                 </div>
                             </div>
@@ -57,7 +63,7 @@
                             <div class="col-3">
                                 <div class=" bg-danger text-center p-2 fw-bold text-light hero"
                                     style="border-radius: 0 20px 0 20px">
-                                    <h4 class="fw-bolder p-0 m-0">30GB</h4>
+                                    <h4 class="fw-bolder p-0 m-0">{{ $tv['kuota'] }}</h4>
                                     <p class="p-0 m-0">Mbps</p>
                                 </div>
                             </div>
@@ -103,7 +109,7 @@
                             <div class="col-3">
                                 <div class=" bg-danger text-center p-2 fw-bold text-light hero"
                                     style="border-radius: 0 20px 0 20px">
-                                    <h4 class="fw-bolder p-0 m-0">30GB</h4>
+                                    <h4 class="fw-bolder p-0 m-0">{{ $phone['kuota'] }}</h4>
                                     <p class="p-0 m-0">Mbps</p>
                                 </div>
                             </div>
