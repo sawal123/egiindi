@@ -13,8 +13,8 @@ class Controller extends BaseController
     public function utama()
     {
         $urlV = ['https://www.youtube.com/embed/jWn6Z1fsIDI', 'https://www.youtube.com/embed/oapqO3Lz97M', 'https://www.youtube.com/embed/p-4B79WGuy0'];
-        $wa = 'https://wa.me/6281261658699?text=Saya+ingin+berlangganan+indihome';
-        $waYa = 'https://wa.me/6281261658699?text=';
+        $wa = 'https://wa.me/6285157715026?text=Saya+ingin+berlangganan+indihome';
+        $waYa = 'https://wa.me/6285157715026?text=';
         // dd($urlV);
         $jHarga = [
             [
